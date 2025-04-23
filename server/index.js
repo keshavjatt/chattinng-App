@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 3002, {
     cors: {
-      // origin: "https://chat-tiko.vercel.app",
+      // origin: "https://shayri-chat-application-backend.onrender.com",
       origin: "http://localhost:3000",
     },
   });
